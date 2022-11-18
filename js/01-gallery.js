@@ -16,7 +16,8 @@ initGallery(galleryItems);
 
 function createItem(galleryItem) {
     
-    return `<div class="gallery__item">
+    return `
+    <div class="gallery__item">
         <a class="gallery__link" href="${galleryItem.original}">
             <img
             class="gallery__image"
