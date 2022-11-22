@@ -5,7 +5,7 @@ const galleryItemsRef = document.querySelector('.gallery');
 
 initGallery(galleryItems);
 
-var lightbox = new SimpleLightbox('.gallery a', { captionDelay: 250, captionsData: "alt" });
+const lightbox = new SimpleLightbox('.gallery a', { captionDelay: 250, captionsData: "alt" });
 
 function createItem(galleryItem) {
     return `
